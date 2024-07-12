@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(), tsConfigPaths()],
   test: {
     globals: true,
-    environment: "happy-dom",
-    setupFiles: ["./vitest-setup.ts"]
-  }
+    environment: 'happy-dom',
+    setupFiles: ['./vitest-setup.ts'],
+  },
 })
